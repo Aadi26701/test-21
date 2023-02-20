@@ -1,0 +1,65 @@
+import { FunctionComponent, useCallback } from "react";
+import styles from "./MAINPAGE.module.css";
+
+const MAINPAGE: FunctionComponent = () => {
+  const onProductTextClick = useCallback(() => {
+    // Please sync "PRODUCTS" to the project
+  }, []);
+
+  const onWishlistTextClick = useCallback(() => {
+    // Please sync "Wish List" to the project
+  }, []);
+
+  const onFrequentlySearchedProductsClick = useCallback(() => {
+    // Please sync "PRODUCTS" to the project
+  }, []);
+
+  return (
+    <div className={styles.mainPage}>
+      <div className={styles.mainPageChild} />
+      <div className={styles.banner}>Banner</div>
+      <div className={styles.product} onClick={onProductTextClick}>
+        Product
+      </div>
+      <div className={styles.wishlist} onClick={onWishlistTextClick}>
+        Wishlist
+      </div>
+      <div className={styles.about}>About</div>
+      <div className={styles.mainPageItem} />
+      <div className={styles.imLookingFor}>I’m looking for...</div>
+      <div className={styles.mainPageInner} />
+      <div className={styles.search}>Search</div>
+      <div
+        className={styles.frequentlySearchedProducts}
+        onClick={onFrequentlySearchedProductsClick}
+      >
+        Frequently searched products
+      </div>
+      <img
+        className={styles.ellipseIcon}
+        alt=""
+        src="../../public/ellipse-1.svg"
+      />
+      <div className={styles.bfc}>BFC</div>
+      <div className={styles.seeMore}>see more</div>
+      <div className={styles.welcome}>Welcome</div>
+      <img
+        className={styles.image1Icon}
+        alt=""
+        src="../../public/image-1@2x.png"
+      />
+      <img
+        className={styles.image2Icon}
+        alt=""
+        src="../../public/image-2@2x.png"
+      />
+      <img
+        className={styles.image3Icon}
+        alt=""
+        src="../../public/image-3@2x.png"
+      />
+    </div>
+  );
+};
+
+export default MAINPAGE;
