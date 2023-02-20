@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-base: 9px;
+  --font-size-lg: 10px;
+  --font-size-xl: 11px;
+  --font-size-2xl: 14px;
+  --font-size-3xl: 24px;
+
+  /* Colors */
+  --color-black: #000;
+  --primary-contrast: #fff;
+  --color-gray: #0d0202;
+  --studio-darkmode-maincta-457eff: #457eff;
+  --studio-lightmode-placeholders-bac2d6: #bac2d6;
+  --color-lightsteelblue-200: #b5bccc;
+  --color-lightsteelblue-300: #a6b0c6;
+  --studio-darkmode-normalsolid-icons-96a2be: #96a2be;
+  --value: #3f4c5a;
+  --studio-lightmode-lightseparator-ecf0f6: #ecf0f6;
+  --studio-darkmode-enabledlabel-e8effd: #e8effd;
+  --studio-lightmode-lightbg-f8f9fb: #f8f9fb;
+  --color-whitesmoke-200: #f3f4f5;
+  --color-mediumslateblue-100: #875fdc;
+  --color-mediumslateblue-200: rgba(135, 95, 220, 0.1);
+  --studio-universal-confirm-4fc786: #4fc786;
+  --color-mediumseagreen-200: rgba(79, 199, 134, 0.1);
+  --color-lightgray: rgba(208, 213, 218, 0.22);
+  --studio-lightmode-midseparator-dee3eb: #dee3eb;
+
+  /* Gaps */
+  --gap-sm: 4px;
+  --gap-md: 7px;
+  --gap-lg: 12px;
+
+  /* Paddings */
+  --padding-2xs: 2px;
+  --padding-xs: 4px;
+  --padding-sm: 6px;
+  --padding-md: 11px;
+  --padding-lg: 14px;
+  --padding-xl: 16px;
+
+  /* border radiuses */
+  --br-xs: 1.83px;
+  --br-sm: 4px;
+  --br-md: 6px;
+  --br-lg: 11px;
+  --br-xl: 24px;
+}
