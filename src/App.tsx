@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Technologies from "../src/pages/Technologies";
 import MAINPAGE from "./public/pages/MAINPAGE";
 import FrameComponent from "./public/pages/FrameComponent";
 import { useEffect } from "react";
@@ -25,6 +26,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/main-page":
         title = "";
         metaDescription = "";
         break;
@@ -50,7 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<MAINPAGE />} />
+      <Route path="/" element={<Technologies />} />
+
+      <Route path="/main-page" element={<MAINPAGE />} />
 
       <Route path="/frame-782" element={<FrameComponent />} />
     </Routes>
