@@ -2,7 +2,7 @@
   position: absolute;
   top: -2px;
   left: 0;
-  background-color: var(--color-gray);
+  background-color: var(--color-gray-400);
   width: 1440px;
   height: 45px;
 }
@@ -10,18 +10,14 @@
   position: absolute;
   top: 10px;
   left: 672px;
-  font-size: 20px;
+  font-size: var(--font-size-lg);
   color: var(--primary-contrast);
 }
-.product,
-.wishlist {
+.product {
   position: absolute;
   top: 95px;
   left: 1036px;
   cursor: pointer;
-}
-.wishlist {
-  left: 1169px;
 }
 .about,
 .mainPageItem {
@@ -47,7 +43,7 @@
 .mainPageInner {
   top: 517px;
   left: 666px;
-  background-color: var(--color-gray);
+  background-color: var(--color-gray-400);
   width: 162px;
   height: 54px;
 }
@@ -82,14 +78,14 @@
 .seeMore {
   top: 646px;
   left: 601px;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-sm);
   color: #0015d4;
 }
 .welcome {
   position: absolute;
   top: 285px;
   left: 616px;
-  font-size: 50px;
+  font-size: var(--font-size-4xl);
 }
 .image1Icon,
 .image2Icon,
@@ -117,7 +113,7 @@
   height: 1136px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--heading-3-size);
   color: var(--color-black);
   font-family: var(--font-roboto);
 }

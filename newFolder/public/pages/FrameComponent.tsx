@@ -22,7 +22,7 @@ const FrameComponent: FunctionComponent = () => {
             <img
               className={styles.addRectangularCopy30Icon}
               alt=""
-              src="../../public/addrectangularcopy30.svg"
+              src="../addrectangularcopy30.svg"
             />
           </div>
           <div className={styles.suggestedTagsForContainer}>
@@ -30,21 +30,9 @@ const FrameComponent: FunctionComponent = () => {
             <b>15 layers</b>
           </div>
           <div className={styles.vectorParent}>
-            <img
-              className={styles.groupChild}
-              alt=""
-              src="../../public/vector-14.svg"
-            />
-            <img
-              className={styles.groupItem}
-              alt=""
-              src="../../public/vector-14.svg"
-            />
-            <img
-              className={styles.groupInner}
-              alt=""
-              src="../../public/vector-15.svg"
-            />
+            <img className={styles.groupChild} alt="" src="../vector-14.svg" />
+            <img className={styles.groupItem} alt="" src="../vector-14.svg" />
+            <img className={styles.groupInner} alt="" src="../vector-15.svg" />
             <div className={styles.notTaggedParent}>
               <div className={styles.notTagged}>Not tagged</div>
               <div className={styles.wrapper}>
@@ -88,7 +76,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blocktextInputIcon}
                   alt=""
-                  src="../../public/blocktext-input.svg"
+                  src="../blocktext-input.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Input</div>
@@ -102,7 +90,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-200.svg"
+                    src="../group-200.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -113,7 +101,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockbuttonIcon}
                   alt=""
-                  src="../../public/blockbutton.svg"
+                  src="../blockbutton.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Button</div>
@@ -127,7 +115,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-200.svg"
+                    src="../group-200.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -138,7 +126,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockselectIcon}
                   alt=""
-                  src="../../public/blockselect.svg"
+                  src="../blockselect.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Select</div>
@@ -152,7 +140,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-200.svg"
+                    src="../group-200.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -161,11 +149,7 @@ const FrameComponent: FunctionComponent = () => {
             <div className={styles.recommendations}>5 Recommendations</div>
             <div className={styles.showMoreParent}>
               <div className={styles.div}>Show more</div>
-              <img
-                className={styles.vectorIcon}
-                alt=""
-                src="../../public/vector.svg"
-              />
+              <img className={styles.vectorIcon} alt="" src="../vector.svg" />
             </div>
           </div>
           <div className={styles.lineGroup}>
@@ -177,7 +161,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blocktextInputIcon}
                   alt=""
-                  src="../../public/blocktext-input1.svg"
+                  src="../blocktext-input1.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Input</div>
@@ -191,7 +175,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -202,7 +186,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockdatepickerIcon}
                   alt=""
-                  src="../../public/blockdatepicker.svg"
+                  src="../blockdatepicker.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>{`Date & Time...`}</div>
@@ -216,7 +200,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -249,7 +233,7 @@ const FrameComponent: FunctionComponent = () => {
               <img
                 className={styles.layerAutoLayoutVertical}
                 alt=""
-                src="../../public/layer--auto-layout-vertical.svg"
+                src="../layer--auto-layout-vertical.svg"
               />
             </div>
             <div className={styles.recommendations1}>4 Recommendations</div>
@@ -258,7 +242,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockselectIcon}
                   alt=""
-                  src="../../public/blockselect1.svg"
+                  src="../blockselect1.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Select</div>
@@ -272,7 +256,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -280,11 +264,7 @@ const FrameComponent: FunctionComponent = () => {
             </div>
             <div className={styles.showMoreGroup}>
               <div className={styles.div}>Show more</div>
-              <img
-                className={styles.vectorIcon}
-                alt=""
-                src="../../public/vector1.svg"
-              />
+              <img className={styles.vectorIcon} alt="" src="../vector1.svg" />
             </div>
           </div>
           <div className={styles.lineContainer}>
@@ -296,7 +276,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blocktextInputIcon}
                   alt=""
-                  src="../../public/blocktext-input1.svg"
+                  src="../blocktext-input1.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Input</div>
@@ -310,7 +290,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -321,7 +301,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockautoCompleteIcon}
                   alt=""
-                  src="../../public/blockautocomplete.svg"
+                  src="../blockautocomplete.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Auto-complete</div>
@@ -335,7 +315,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -346,7 +326,7 @@ const FrameComponent: FunctionComponent = () => {
               <img
                 className={styles.layerAutoLayoutVertical}
                 alt=""
-                src="../../public/layer--auto-layout-vertical.svg"
+                src="../layer--auto-layout-vertical.svg"
               />
             </div>
             <div className={styles.selectoutlinedContainer}>
@@ -374,7 +354,7 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.blockselectIcon}
                   alt=""
-                  src="../../public/blockselect1.svg"
+                  src="../blockselect1.svg"
                 />
                 <div className={styles.autoCompleteWrapper}>
                   <div className={styles.autoComplete}>Select</div>
@@ -388,7 +368,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon}
                     alt=""
-                    src="../../public/group-2003.svg"
+                    src="../group-2003.svg"
                   />
                   <div className={styles.div}>Accept</div>
                 </div>
@@ -401,14 +381,14 @@ const FrameComponent: FunctionComponent = () => {
             <img
               className={styles.rectangleIcon}
               alt=""
-              src="../../public/rectangle.svg"
+              src="../rectangle.svg"
             />
             <div className={styles.group2}>
               <div className={styles.searchButtonParent}>
                 <img
                   className={styles.rectangleIcon1}
                   alt=""
-                  src="../../public/rectangle1.svg"
+                  src="../rectangle1.svg"
                 />
                 <div className={styles.groupChild1} />
                 <div className={styles.groupInner1}>
@@ -420,14 +400,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle2.svg"
+                            src="../rectangle2.svg"
                           />
                           <div className={styles.group3}>
                             <div className={styles.file}>File</div>
                             <img
                               className={styles.iconblockbutton}
                               alt=""
-                              src="../../public/iconblockbutton.svg"
+                              src="../iconblockbutton.svg"
                             />
                           </div>
                         </div>
@@ -435,14 +415,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon3}
                             alt=""
-                            src="../../public/rectangle3.svg"
+                            src="../rectangle3.svg"
                           />
                           <div className={styles.group5}>
                             <div className={styles.notSure}>Not Sure</div>
                             <img
                               className={styles.iconblockbutton1}
                               alt=""
-                              src="../../public/iconblockbutton1.svg"
+                              src="../iconblockbutton1.svg"
                             />
                           </div>
                         </div>
@@ -450,14 +430,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle2.svg"
+                            src="../rectangle2.svg"
                           />
                           <div className={styles.group6}>
                             <div className={styles.textarea}>Textarea</div>
                             <img
                               className={styles.iconblockbutton2}
                               alt=""
-                              src="../../public/iconblockbutton2.svg"
+                              src="../iconblockbutton2.svg"
                             />
                           </div>
                         </div>
@@ -465,14 +445,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon5}
                             alt=""
-                            src="../../public/rectangle5.svg"
+                            src="../rectangle5.svg"
                           />
                           <div className={styles.group7}>
                             <div className={styles.video}>Video</div>
                             <img
                               className={styles.iconblockbutton3}
                               alt=""
-                              src="../../public/iconblockbutton3.svg"
+                              src="../iconblockbutton3.svg"
                             />
                           </div>
                         </div>
@@ -480,14 +460,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group8}>
                             <div className={styles.button2}>Button</div>
                             <img
                               className={styles.iconblockbutton4}
                               alt=""
-                              src="../../public/iconblockbutton4.svg"
+                              src="../iconblockbutton4.svg"
                             />
                           </div>
                         </div>
@@ -495,14 +475,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon5}
                             alt=""
-                            src="../../public/rectangle7.svg"
+                            src="../rectangle7.svg"
                           />
                           <div className={styles.group9}>
                             <div className={styles.image}>Image</div>
                             <img
                               className={styles.iconblockbutton5}
                               alt=""
-                              src="../../public/iconblockbutton5.svg"
+                              src="../iconblockbutton5.svg"
                             />
                           </div>
                         </div>
@@ -510,14 +490,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group10}>
                             <div className={styles.select}>Select</div>
                             <img
                               className={styles.iconblockbutton6}
                               alt=""
-                              src="../../public/iconblockbutton6.svg"
+                              src="../iconblockbutton6.svg"
                             />
                           </div>
                         </div>
@@ -525,14 +505,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon5}
                             alt=""
-                            src="../../public/rectangle9.svg"
+                            src="../rectangle9.svg"
                           />
                           <div className={styles.group11}>
                             <div className={styles.audio}>Audio</div>
                             <img
                               className={styles.iconblockbutton7}
                               alt=""
-                              src="../../public/iconblockbutton7.svg"
+                              src="../iconblockbutton7.svg"
                             />
                           </div>
                         </div>
@@ -540,14 +520,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle10.svg"
+                            src="../rectangle10.svg"
                           />
                           <div className={styles.group12}>
                             <div className={styles.link}>Link</div>
                             <img
                               className={styles.iconblockbutton8}
                               alt=""
-                              src="../../public/iconblockbutton8.svg"
+                              src="../iconblockbutton8.svg"
                             />
                           </div>
                         </div>
@@ -555,14 +535,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group13}>
                             <div className={styles.form}>Form</div>
                             <img
                               className={styles.iconblockbutton9}
                               alt=""
-                              src="../../public/iconblockbutton9.svg"
+                              src="../iconblockbutton9.svg"
                             />
                           </div>
                         </div>
@@ -570,14 +550,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon5}
                             alt=""
-                            src="../../public/rectangle12.svg"
+                            src="../rectangle12.svg"
                           />
                           <div className={styles.group14}>
                             <div className={styles.container1}>Container</div>
                             <img
                               className={styles.iconblockbutton10}
                               alt=""
-                              src="../../public/iconblockbutton10.svg"
+                              src="../iconblockbutton10.svg"
                             />
                           </div>
                         </div>
@@ -585,14 +565,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle10.svg"
+                            src="../rectangle10.svg"
                           />
                           <div className={styles.group15}>
                             <div className={styles.label}>Label</div>
                             <img
                               className={styles.iconblockbutton11}
                               alt=""
-                              src="../../public/iconblockbutton11.svg"
+                              src="../iconblockbutton11.svg"
                             />
                           </div>
                         </div>
@@ -600,14 +580,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle10.svg"
+                            src="../rectangle10.svg"
                           />
                           <div className={styles.group16}>
                             <div className={styles.radio}>Radio</div>
                             <img
                               className={styles.iconblockbutton12}
                               alt=""
-                              src="../../public/iconblockbutton12.svg"
+                              src="../iconblockbutton12.svg"
                             />
                           </div>
                         </div>
@@ -615,14 +595,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon15}
                             alt=""
-                            src="../../public/rectangle15.svg"
+                            src="../rectangle15.svg"
                           />
                           <div className={styles.group17}>
                             <div className={styles.youtube}>YouTube</div>
                             <img
                               className={styles.iconblockbutton13}
                               alt=""
-                              src="../../public/iconblockbutton13.svg"
+                              src="../iconblockbutton13.svg"
                             />
                           </div>
                         </div>
@@ -630,14 +610,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group18}>
                             <div className={styles.text}>Text</div>
                             <img
                               className={styles.iconblockbutton14}
                               alt=""
-                              src="../../public/iconblockbutton14.svg"
+                              src="../iconblockbutton14.svg"
                             />
                           </div>
                         </div>
@@ -645,14 +625,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group19}>
                             <div className={styles.input}>Input</div>
                             <img
                               className={styles.iconblockbutton15}
                               alt=""
-                              src="../../public/iconblockbutton15.svg"
+                              src="../iconblockbutton15.svg"
                             />
                           </div>
                         </div>
@@ -660,14 +640,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group20}>
                             <div className={styles.lottie}>Lottie</div>
                             <img
                               className={styles.iconblockbutton16}
                               alt=""
-                              src="../../public/iconblockbutton16.svg"
+                              src="../iconblockbutton16.svg"
                             />
                           </div>
                         </div>
@@ -675,14 +655,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon2}
                             alt=""
-                            src="../../public/rectangle6.svg"
+                            src="../rectangle6.svg"
                           />
                           <div className={styles.group21}>
                             <div className={styles.video}>Checkbox</div>
                             <img
                               className={styles.iconblockbutton17}
                               alt=""
-                              src="../../public/iconblockbutton17.svg"
+                              src="../iconblockbutton17.svg"
                             />
                           </div>
                         </div>
@@ -690,14 +670,14 @@ const FrameComponent: FunctionComponent = () => {
                           <img
                             className={styles.rectangleIcon3}
                             alt=""
-                            src="../../public/rectangle20.svg"
+                            src="../rectangle20.svg"
                           />
                           <div className={styles.group22}>
                             <div className={styles.image}>iFrame</div>
                             <img
                               className={styles.iconblockbutton18}
                               alt=""
-                              src="../../public/iconblockbutton18.svg"
+                              src="../iconblockbutton18.svg"
                             />
                           </div>
                         </div>
@@ -711,13 +691,9 @@ const FrameComponent: FunctionComponent = () => {
                     <img
                       className={styles.rectangleIcon}
                       alt=""
-                      src="../../public/rectangle21.svg"
+                      src="../rectangle21.svg"
                     />
-                    <img
-                      className={styles.lineIcon}
-                      alt=""
-                      src="../../public/line.svg"
-                    />
+                    <img className={styles.lineIcon} alt="" src="../line.svg" />
                     <div className={styles.tagLayers}>Tag Layers</div>
                     <div className={styles.tagYourLayers}>
                       Tag your layers manually or automatically with LocoAi
@@ -725,7 +701,7 @@ const FrameComponent: FunctionComponent = () => {
                     <img
                       className={styles.icontabUp}
                       alt=""
-                      src="../../public/icontabup.svg"
+                      src="../icontabup.svg"
                     />
                   </div>
                 </div>
@@ -733,7 +709,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.rectangleIcon22}
                     alt=""
-                    src="../../public/rectangle22.svg"
+                    src="../rectangle22.svg"
                   />
                   <div
                     className={styles.autoTagWithLocoai}
@@ -746,34 +722,30 @@ const FrameComponent: FunctionComponent = () => {
                     <img
                       className={styles.ellipseIcon}
                       alt=""
-                      src="../../public/ellipse-11.svg"
+                      src="../ellipse-11.svg"
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <img
-              className={styles.groupIcon1}
-              alt=""
-              src="../../public/group.svg"
-            />
+            <img className={styles.groupIcon1} alt="" src="../group.svg" />
             <div className={styles.group24}>
               <div className={styles.searchButtonParent}>
                 <img
                   className={styles.rectangleIcon}
                   alt=""
-                  src="../../public/rectangle23.svg"
+                  src="../rectangle23.svg"
                 />
                 <img
                   className={styles.cilmenuIcon}
                   alt=""
-                  src="../../public/cilmenu.svg"
+                  src="../cilmenu.svg"
                 />
                 <div className={styles.dropdownproject}>
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle24.svg"
+                    src="../rectangle24.svg"
                   />
                   <div className={styles.nikeLandingPage}>
                     Nike Landing Page Design
@@ -781,37 +753,33 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.groupIcon2}
                     alt=""
-                    src="../../public/group1.svg"
+                    src="../group1.svg"
                   />
                   <img
                     className={styles.groupIcon3}
                     alt=""
-                    src="../../public/group2.svg"
+                    src="../group2.svg"
                   />
                 </div>
                 <div className={styles.dropdownplatform}>
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle25.svg"
+                    src="../rectangle25.svg"
                   />
                   <div className={styles.web}>Web</div>
                   <img
                     className={styles.groupIcon4}
                     alt=""
-                    src="../../public/group3.svg"
+                    src="../group3.svg"
                   />
                   <img
                     className={styles.groupIcon5}
                     alt=""
-                    src="../../public/group4.svg"
+                    src="../group4.svg"
                   />
                 </div>
-                <img
-                  className={styles.lineIcon1}
-                  alt=""
-                  src="../../public/line1.svg"
-                />
+                <img className={styles.lineIcon1} alt="" src="../line1.svg" />
               </div>
             </div>
             <div className={styles.group121}>
@@ -820,7 +788,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle26.svg"
+                    src="../rectangle26.svg"
                   />
                   <div
                     className={styles.defineBehaviour}
@@ -828,15 +796,11 @@ const FrameComponent: FunctionComponent = () => {
                   <div className={styles.editYourLayers}>
                     Edit your layer's UX across states and screen sizes
                   </div>
-                  <img
-                    className={styles.lineIcon2}
-                    alt=""
-                    src="../../public/line2.svg"
-                  />
+                  <img className={styles.lineIcon2} alt="" src="../line2.svg" />
                   <img
                     className={styles.icontabUp1}
                     alt=""
-                    src="../../public/icontabup1.svg"
+                    src="../icontabup1.svg"
                   />
                 </div>
               </div>
@@ -847,13 +811,9 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle26.svg"
+                    src="../rectangle26.svg"
                   />
-                  <img
-                    className={styles.lineIcon2}
-                    alt=""
-                    src="../../public/line2.svg"
-                  />
+                  <img className={styles.lineIcon2} alt="" src="../line2.svg" />
                   <div className={styles.defineBehaviour}>Add Actions</div>
                   <div className={styles.editYourLayers}>
                     Add an onClick action to your layer
@@ -861,7 +821,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.icontabUp1}
                     alt=""
-                    src="../../public/icontabup1.svg"
+                    src="../icontabup1.svg"
                   />
                 </div>
               </div>
@@ -872,13 +832,9 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle26.svg"
+                    src="../rectangle26.svg"
                   />
-                  <img
-                    className={styles.lineIcon2}
-                    alt=""
-                    src="../../public/line2.svg"
-                  />
+                  <img className={styles.lineIcon2} alt="" src="../line2.svg" />
                   <div
                     className={styles.dragDrop}
                   >{`Drag & Drop Prebuilt Components`}</div>
@@ -889,7 +845,7 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.icontabUp1}
                     alt=""
-                    src="../../public/icontabup1.svg"
+                    src="../icontabup1.svg"
                   />
                 </div>
               </div>
@@ -899,23 +855,19 @@ const FrameComponent: FunctionComponent = () => {
                 <img
                   className={styles.rectangleIcon}
                   alt=""
-                  src="../../public/rectangle29.svg"
+                  src="../rectangle29.svg"
                 />
-                <img
-                  className={styles.lineIcon5}
-                  alt=""
-                  src="../../public/line5.svg"
-                />
+                <img className={styles.lineIcon5} alt="" src="../line5.svg" />
                 <div className={styles.group30}>
                   <img
                     className={styles.rectangleIcon}
                     alt=""
-                    src="../../public/rectangle30.svg"
+                    src="../rectangle30.svg"
                   />
                   <img
                     className={styles.carboncodeIcon}
                     alt=""
-                    src="../../public/carboncode.svg"
+                    src="../carboncode.svg"
                   />
                   <div className={styles.group35}>
                     <div className={styles.autoTagWithLocoaiContainer}>
@@ -927,12 +879,12 @@ const FrameComponent: FunctionComponent = () => {
                   <img
                     className={styles.rectangleCopyIcon}
                     alt=""
-                    src="../../public/rectanglecopy.svg"
+                    src="../rectanglecopy.svg"
                   />
                   <img
                     className={styles.triangleIcon}
                     alt=""
-                    src="../../public/triangle.svg"
+                    src="../triangle.svg"
                   />
                   <div className={styles.preview}>Preview</div>
                 </div>
@@ -952,7 +904,7 @@ const FrameComponent: FunctionComponent = () => {
                     <img
                       className={styles.group3Copy4Icon}
                       alt=""
-                      src="../../public/group3copy4.svg"
+                      src="../group3copy4.svg"
                     />
                   </div>
                 </div>
